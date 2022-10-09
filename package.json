@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-ip-whitelist",
+  "version": "0.0.1",
+  "description": "A script that parses Cloudflare's IP ranges and generates a whitelist for your nginx configuration",
+  "main": "src/main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Something-Host/cloudflare-ip-whitelist.git"
+  },
+  "author": "auroraisluna <aurorais.me>",
+  "license": "GNU AGPLv3",
+  "bugs": {
+    "url": "https://github.com/Something-Host/cloudflare-ip-whitelist/issues"
+  },
+  "homepage": "https://github.com/Something-Host/cloudflare-ip-whitelist#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
